@@ -6,7 +6,7 @@ export default function TodoList({todos, deleteTodo, updateTodo}) {
         <ul className="todo-list">
            {
             todos.map(todo => (
-                <Todo todo = {todo} key={todo.id} deleteTodo={deleteTodo} updateTodo={updateTodo} />
+                <Todo todo = {todo} key={todo.id} deleteTodo={deleteTodo} updateTodo={updateTodo}/>
             ))
            }
         </ul>
